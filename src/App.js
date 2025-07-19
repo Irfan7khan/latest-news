@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Mcarts from './components/Mcarts';
+// import Testapi from './components/Testapi';
+import NewsApp from './components/NewsApp';
+// import {Routes,Route} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NewsApp />
+      
+      {/* <Routes>
+        <Route path='/' element={ <Testapi/>} />
+        <Route path='/movies/:id' element={ <Mcarts/>} />
+      </Routes> */}
+
+      
     </div>
   );
 }
